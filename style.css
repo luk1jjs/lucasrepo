@@ -1,0 +1,57 @@
+.logo {
+    width: 13%;
+    height: auto;
+}
+
+h1 {
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif,'Courier New', Courier, monospace;
+
+}
+
+section {
+    font-size: large ;
+}
+
+.Catalogoautos {
+    width: 450px;
+    height: auto;
+}
+
+.nombre-precio {
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+}
+
+.menu {
+    font-size: 45px;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none !important;
+    color: rgb(0, 0, 0);
+}
+
+.menu:visited {
+    font-size: 45px;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    color: red;
+}
+
+
+
+.p-footer {
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: small;
+}
+
+.logo-footer{
+    width: 23%;
+    height: auto;
+}
+
+.logo {
+    width: 5%;
+    height: auto;
+}
