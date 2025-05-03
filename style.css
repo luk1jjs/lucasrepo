@@ -55,3 +55,26 @@ section {
     width: 5%;
     height: auto;
 }
+
+.portada {
+    background-image: url(https://media-hosting.imagekit.io/0fc1b56422134c9d/Principal.avif?Expires=1840841633&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=Ph~nyx4XF0QsbpsHlbkr~OQYXBKHN-B99Gv5xlknRvVm1IqQ9hXZDP-5ycfEfAPMaFx1n5hIh1J~sUgeVE1XsOA3HLXq~uZMHvCg9Ciaw8jrmynPXPlL57VT7fw3-YgCmOGxDGwtDftHWmEW7vt5uAp5XIHDwbg00POt8KoOEFM0n0tsGSqIp9W2V1wb626GrnXOTwTA1axcO5RXQbMJ4J9e52vUYNQvuD2w9cba4Tm9isvCOca9gP~FtKImKvQiwca1zKZZLBNE0VYGN~qItlnTho1ADsvfXcdhlA6Z78UYxlQy~GohEhS1UzEDKABDLrs49WHJJ5SYvIaS2CzGKQ__);
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: white;
+}
+
+.navbar {
+
+    font-size: 35px;
+    position: fixed;
+}
+
+
+
+.Catalogoautos {
+    -webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+}
