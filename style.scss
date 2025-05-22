@@ -1,5 +1,14 @@
+
+$font-sans: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+$font-mono: 'Courier New', Courier, monospace;
+$font-title: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+$font-classic: 'Times New Roman', Times, serif;
+$color-black: rgb(0, 0, 0);
+$color-red: red;
+
+
 h1 {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif, "Courier New", Courier, monospace;
+  font-family: $font-sans, $font-mono;
 }
 
 section {
@@ -7,22 +16,23 @@ section {
 }
 
 .nombre-precio {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: $font-title;
 }
 
 .menu {
   font-size: 45px;
-  font-family: "Times New Roman", Times, serif;
+  font-family: $font-classic;
   text-decoration: none !important;
-  color: rgb(0, 0, 0);
-}
-.menu:visited {
-  text-decoration: none;
-  color: red;
+  color: $color-black;
+
+  &:visited {
+    text-decoration: none;
+    color: $color-red;
+  }
 }
 
 .p-footer {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: $font-sans;
   font-size: small;
 }
 
@@ -55,5 +65,3 @@ section {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
 }
-
-/*# sourceMappingURL=style.css.map */
